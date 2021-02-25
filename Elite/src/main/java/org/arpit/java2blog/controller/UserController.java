@@ -20,7 +20,7 @@ public class UserController {
 
 	@Autowired
 	UserService userService;
-
+	//gettting all users
 	@RequestMapping(value = "/getAllUsers", method = RequestMethod.GET, headers = "Accept=application/json")
 	public List<User> getUsers() {
 
