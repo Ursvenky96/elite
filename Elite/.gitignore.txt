@@ -15,3 +15,13 @@ node_modules
 *.class
 *.jar
 *.war
+Elite/
+target/
+*.jar
+
+
+
+.metadata
+bin/
+tmp/
+.settings/
